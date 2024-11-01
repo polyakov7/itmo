@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.red { background-color: red; }
+
+.green { background-color: green; }
+
+.blue { background-color: blue; }
+
+.yellow { background-color: yellow; }
+
+.squares-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #b9b9b9;
+    cursor: pointer;
+}
