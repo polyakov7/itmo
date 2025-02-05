@@ -1,0 +1,91 @@
+body {
+  background-color: #fff;
+}
+
+.card {
+  width: 200px;
+  padding: 15px;
+  border: solid 1px #ccc;
+  margin: 20px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+}
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+  box-sizing: border-box;
+}
+.product_list{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: "../public/shop.jpg";
+}
+
+button {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #6695e2;
+  color: #fff;
+  background: #6695e2;
+  border: none;
+}
+
+button:hover {
+  background-color: #4675c1;
+  cursor: pointer;
+}
+
+a{
+  color: #fff;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.header{
+  background-color: #6695e2;
+}
+
+.router {
+  margin-right: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+  .head__left{
+    display: flex;
+    align-items:center ;
+    gap: 20px;
+  }
+
+select{
+  width: 250px;
+  height: 30px;
+  margin-top: 50px;
+  margin-bottom:50px
+}
+
+.allcard {
+  display: flex;
+  padding: 30px;
+  box-sizing: border-box;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+select{
+  cursor: pointer;
+}
